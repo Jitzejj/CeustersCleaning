@@ -52,7 +52,7 @@
   }
 
   .contact_section .map_container {
-    margin-top: 45px;
+    display: none;
   }
 
   .info_section .info_contact a {
