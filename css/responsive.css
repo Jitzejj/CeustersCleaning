@@ -53,6 +53,7 @@
 
   .contact_section .map_container {
     display: none;
+    margin-top: 45px;
   }
 
   .info_section .info_contact a {
