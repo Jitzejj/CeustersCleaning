@@ -52,8 +52,7 @@
   }
 
   .contact_section .map_container {
-    display: flex;
-    margin-top: 45px;
+    display: none;
   }
 
   .info_section .info_contact a {
