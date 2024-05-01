@@ -19,7 +19,15 @@ function sendEmail() {
         Subject : "Ramenwasser",
         Body : bodyMessage
     }).then(
-      message => alert(message)
+      message => {
+          if (message == "OK") {
+              Swal.fire({
+                  title: "Succesvol verstuurd",
+                  text: "Wij antwoorden zo snel mogelijk op uw vragen",
+                  icon: "success"
+                });
+          }
+      }
     );
 }
 
